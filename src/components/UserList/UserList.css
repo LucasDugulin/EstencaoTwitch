@@ -1,0 +1,43 @@
+.userCard {
+  display: flex;
+  margin: 0.2rem;
+  box-shadow: 2px 2px 2px 2px rgba(61, 61, 61, 0.2);
+  background-color: #0f0f0f;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.logoMembros {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 1rem;
+  border-radius: 50px;
+}
+
+.textMembros {
+  display: flex;
+  flex-direction: column;
+}
+
+.nomesMembros {
+  font-size: 22px;
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 13rem;
+}
+
+.jogando {
+  font-size: 12px;
+  color: #9c9c9c;
+}
+
+.tituloLive {
+  font-size: 13px;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 13rem;
+}
