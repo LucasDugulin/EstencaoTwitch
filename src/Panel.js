@@ -1,6 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import 'regenerator-runtime/runtime';
 
-import Panel from "./containers/Panel";
+import Panel from './containers/Panel';
 
-ReactDOM.render(<Panel />, document.getElementById("root"));
+ReactDOM.render(<Panel />, document.getElementById('root'));

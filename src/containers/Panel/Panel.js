@@ -1,20 +1,18 @@
-import React, { useState, useEffect } from "react";
-import "./Panel.css";
+import React, { useState, useEffect } from 'react';
+import './Panel.css';
 
-import Logo from "../../assets/img/Logo_2.svg";
-
-import Footer from "../../components/Footer";
-import UserList from "../../components/UserList";
+import Footer from '../../components/Footer';
+import UserList from '../../components/UserList';
 
 function Panel() {
   const [time, setTime] = useState({});
 
   useEffect(() => {
-    fetch("https://api.twitch.tv/kraken/teams/osguerreiros", {
-      method: "GET",
+    fetch('https://api.twitch.tv/kraken/teams/osguerreiros', {
+      method: 'GET',
       headers: {
-        Accept: "application/vnd.twitchtv.v5+json",
-        "Client-ID": "gp762nuuoqcoxypju8c569th9wz7q5",
+        Accept: 'application/vnd.twitchtv.v5+json',
+        'Client-ID': 'gp762nuuoqcoxypju8c569th9wz7q5',
       },
     })
       .then((res) => res.json())
